@@ -1,0 +1,21 @@
+{
+  "name": "micro-frontend-example",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "lerna": "^8.2.0"
+  }
+}
