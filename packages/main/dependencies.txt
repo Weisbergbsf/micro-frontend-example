@@ -1,0 +1,14 @@
+**** Para o MAIN ****
+npm i --save-dev @babel/plugin-proposal-class-properties @babel/preset-env 
+npm i --save-dev @babel/preset-react @babel/preset-typescript @types/node @types/react 
+npm i --save-dev @types/react-dom babel-loader fork-ts-checker-webpack-plugin html-webpack-plugin
+npm i --save-dev serve ts-loader typescript webpack webpack-cli webpack-dev-server
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+npm install --save-dev @babel/plugin-proposal-private-methods
+
+**** Para os Micro-Frontends ****
+
+npm install --save-dev @types/node @types/react @types/react-dom html-webpack-plugin serve
+npm install --save-dev ts-loader typescript webpack webpack-cli webpack-dev-server
+
+npm i dotenv react react-dom react-router-dom
